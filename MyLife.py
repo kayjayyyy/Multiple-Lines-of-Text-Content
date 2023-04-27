@@ -14,3 +14,15 @@ with open("mylife.txt", "w") as input_txt_file:
         # Ask for the users inpot
         text = input("\nEnter the line you want to extract in txt file: ")
         input_txt_file.write(text + "\n")
+        # Loop the program until the users say no to end it
+        while True:
+            yes_or_no = input("\nAre there more lines y/n? ")
+            # If yes "y", ask again for the users input
+            if yes_or_no.lower() == "y":
+                break
+            else:
+                break
+        # If no "n", stop the program
+        if yes_or_no.lower() == "n":
+            break
+        
