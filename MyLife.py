@@ -26,3 +26,5 @@ with open("mylife.txt", "w") as input_txt_file:
         if yes_or_no.lower() == "n":
             break
         
+# Close the program
+input_txt_file.close()    
