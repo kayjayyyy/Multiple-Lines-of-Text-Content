@@ -26,5 +26,14 @@ with open("mylife.txt", "w") as input_txt_file:
         if yes_or_no.lower() == "n":
             break
         
-# Close the program
+# Close the program/txt file
 input_txt_file.close()    
+
+# Outro and border line
+print("\n")
+print("\033[33mPlease check for the mylife.txt file\033[0m".center(80))
+print("\n")
+print("\033[3mThank you! Have a great day!".center(70))
+print("")
+print("\033[35m※ \033[0m" * 35)
+print("")
